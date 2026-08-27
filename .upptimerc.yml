@@ -1,0 +1,34 @@
+# Augurya public status page — deliberately separate infrastructure from
+# phantom-platform (own repo, own CI, own failure domain: if the main repo's
+# CI is ever degraded, this monitoring must not share fate with it).
+#
+# Monitors only the public, customer-facing surfaces. Internal-only surfaces
+# (staff shell, Quant Lab) are excluded by design -- this page is for
+# customers, not staff, and exposing internal-tool uptime publicly would leak
+# operational detail with no customer benefit.
+owner: amitb641
+repo: augurya-status
+
+sites:
+  - name: Augurya (marketing site)
+    url: https://augurya.com
+  - name: Augurya App (member shell)
+    url: https://app.augurya.com
+  - name: Augurya API
+    url: https://api.augurya.com/api/health
+
+status-website:
+  cname: status.augurya.com
+  logoUrl: https://augurya.com/favicon.ico
+  name: Augurya Status
+  introTitle: "**Augurya** system status."
+  introMessage: Live status for Augurya's public surfaces, checked every 5 minutes. No server required -- just GitHub Actions, Issues, and Pages.
+  navbar:
+    - title: Status
+      href: /
+    - title: Augurya
+      href: https://augurya.com
+
+# Notifications intentionally not configured yet -- add a notification
+# channel (email/Slack/etc.) as a deliberate follow-up decision, not a
+# default. See https://upptime.js.org/docs/configuration
