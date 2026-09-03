@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 240,
     "timeDay": 143,
-    "timeWeek": 240,
+    "timeWeek": 250,
     "timeMonth": 240,
     "timeYear": 240,
     "dailyMinutesDown": {}
@@ -30,7 +30,7 @@
     "uptimeYear": "100.00%",
     "time": 294,
     "timeDay": 136,
-    "timeWeek": 294,
+    "timeWeek": 275,
     "timeMonth": 294,
     "timeYear": 294,
     "dailyMinutesDown": {}
@@ -40,22 +40,23 @@
     "url": "https://api.augurya.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.augurya.com.ico",
     "slug": "augurya-api",
-    "status": "up",
-    "uptime": "99.62%",
-    "uptimeDay": "99.38%",
+    "status": "down",
+    "uptime": "99.64%",
+    "uptimeDay": "99.37%",
     "uptimeWeek": "99.62%",
-    "uptimeMonth": "99.62%",
-    "uptimeYear": "99.62%",
-    "time": 249,
-    "timeDay": 359,
-    "timeWeek": 249,
-    "timeMonth": 249,
-    "timeYear": 249,
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
+    "time": 238,
+    "timeDay": 285,
+    "timeWeek": 247,
+    "timeMonth": 238,
+    "timeYear": 238,
     "dailyMinutesDown": {
       "2026-08-29": 11,
       "2026-08-30": 6,
       "2026-08-31": 12,
-      "2026-09-02": 9
+      "2026-09-02": 9,
+      "2026-09-03": 0
     }
   }
 ]
