@@ -1,7 +1,7 @@
 url: https://api.augurya.com/api/health
-status: down
-code: 502
-responseTime: 45
-lastUpdated: 2026-09-08T11:57:04.363Z
+status: up
+code: 200
+responseTime: 70
+lastUpdated: 2026-09-08T12:18:16.904Z
 startTime: 2026-08-27T04:11:14.535Z
 generator: Upptime <https://github.com/upptime/upptime>
