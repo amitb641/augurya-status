@@ -16,6 +16,19 @@ sites:
     url: https://app.augurya.com
   - name: Augurya API
     url: https://api.augurya.com/api/health
+  # Live trading pipeline (not the app-level K8s-trinity /api/health probes,
+  # which only check an in-process state machine and never prove the actual
+  # feature -> signal -> strategy -> risk -> execution pipeline is producing
+  # fresh work). Returns 200 for "ok"/"degraded" (a deliberate risk halt is
+  # not down), 503 only when price data has genuinely stopped flowing or the
+  # DB probe itself fails -- see phantom-platform backend/app/routers/ops.py
+  # api_health_trading() for the full reasoning. phantom-platform docs/
+  # TASKS.json #20. DO NOT MERGE this entry until that backend endpoint is
+  # confirmed deployed and live -- merging first makes this monitor show a
+  # false "down" for a feature that was never actually down, just not yet
+  # shipped.
+  - name: Augurya Trading Pipeline
+    url: https://api.augurya.com/api/health/trading
 
 status-website:
   cname: status.augurya.com
