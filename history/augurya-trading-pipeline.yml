@@ -1,7 +1,7 @@
 url: https://api.augurya.com/api/health/trading
-status: down
-code: 502
-responseTime: 51
-lastUpdated: 2026-10-04T03:25:15.030Z
+status: up
+code: 200
+responseTime: 668
+lastUpdated: 2026-10-04T04:56:35.579Z
 startTime: 2026-10-02T14:29:50.199Z
 generator: Upptime <https://github.com/upptime/upptime>
