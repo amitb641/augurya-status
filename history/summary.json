@@ -40,16 +40,16 @@
     "url": "https://api.augurya.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.augurya.com.ico",
     "slug": "augurya-api",
-    "status": "down",
-    "uptime": "99.59%",
-    "uptimeDay": "97.67%",
-    "uptimeWeek": "99.55%",
-    "uptimeMonth": "99.60%",
-    "uptimeYear": "99.59%",
+    "status": "up",
+    "uptime": "99.57%",
+    "uptimeDay": "96.64%",
+    "uptimeWeek": "99.40%",
+    "uptimeMonth": "99.56%",
+    "uptimeYear": "99.57%",
     "time": 341,
-    "timeDay": 122,
-    "timeWeek": 150,
-    "timeMonth": 422,
+    "timeDay": 170,
+    "timeWeek": 166,
+    "timeMonth": 421,
     "timeYear": 341,
     "dailyMinutesDown": {
       "2026-08-29": 11,
@@ -67,7 +67,7 @@
       "2026-09-26": 2,
       "2026-10-04": 92,
       "2026-10-09": 12,
-      "2026-10-12": 33
+      "2026-10-12": 48
     }
   },
   {
@@ -75,20 +75,20 @@
     "url": "https://api.augurya.com/api/health/trading",
     "icon": "https://icons.duckduckgo.com/ip3/api.augurya.com.ico",
     "slug": "augurya-trading-pipeline",
-    "status": "down",
-    "uptime": "99.16%",
-    "uptimeDay": "97.70%",
-    "uptimeWeek": "99.67%",
-    "uptimeMonth": "99.16%",
-    "uptimeYear": "99.16%",
-    "time": 385,
-    "timeDay": 110,
-    "timeWeek": 347,
-    "timeMonth": 385,
-    "timeYear": 385,
+    "status": "up",
+    "uptime": "99.06%",
+    "uptimeDay": "96.67%",
+    "uptimeWeek": "99.52%",
+    "uptimeMonth": "99.06%",
+    "uptimeYear": "99.06%",
+    "time": 373,
+    "timeDay": 124,
+    "timeWeek": 332,
+    "timeMonth": 373,
+    "timeYear": 373,
     "dailyMinutesDown": {
       "2026-10-04": 91,
-      "2026-10-12": 33
+      "2026-10-12": 48
     }
   }
 ]
